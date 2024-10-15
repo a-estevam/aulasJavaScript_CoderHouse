@@ -66,6 +66,7 @@
 // }
 
 
+//Exercício Vogal//
 
 var letra = prompt('digite uma letra');
 
@@ -77,4 +78,16 @@ if (letra == ""){
 
 }else{
     alert ("a letra '" + letra + "' é uma consoante")
+}
+
+//Exercício de casa//
+var nome = prompt("digite seu nome");
+var sobreNome = prompt("digite seu sobrenome");
+
+if ((nome == "Antonio")&&(sobreNome == "Estevam")){
+  alert("voce é o Tonico")
+} else if ((nome == "")||(sobreNome == "")){
+  alert("Você não preencheu uma das opções, digite novamente")
+} else {
+  alert("Você não é o Tonico")
 }
