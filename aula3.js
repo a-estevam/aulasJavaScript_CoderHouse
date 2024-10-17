@@ -66,28 +66,28 @@
 // }
 
 
-//Exercício Vogal//
+// //Exercício Vogal//
 
-var letra = prompt('digite uma letra');
+// var letra = prompt('digite uma letra');
 
-if (letra == ""){
-    alert('está vazio, digite uma letra')
+// if (letra == ""){
+//     alert('está vazio, digite uma letra')
 
-} else if ((letra =="a")||(letra =="e") ||(letra =="i")||(letra =="o")||(letra =="u")||(letra =="A")||(letra =="E") ||(letra =="I")||(letra =="O")||(letra =="U")){
-    alert("a letra '" + letra + "' é uma vogal")
+// } else if ((letra =="a")||(letra =="e") ||(letra =="i")||(letra =="o")||(letra =="u")||(letra =="A")||(letra =="E") ||(letra =="I")||(letra =="O")||(letra =="U")){
+//     alert("a letra '" + letra + "' é uma vogal")
 
-}else{
-    alert ("a letra '" + letra + "' é uma consoante")
-}
+// }else{
+//     alert ("a letra '" + letra + "' é uma consoante")
+// }
 
-//Exercício de casa//
-var nome = prompt("digite seu nome");
-var sobreNome = prompt("digite seu sobrenome");
+// //Exercício de casa//
+// var nome = prompt("digite seu nome");
+// var sobreNome = prompt("digite seu sobrenome");
 
-if ((nome == "Antonio")&&(sobreNome == "Estevam")){
-  alert("voce é o Tonico")
-} else if ((nome == "")||(sobreNome == "")){
-  alert("Você não preencheu uma das opções, digite novamente")
-} else {
-  alert("Você não é o Tonico")
-}
+// if ((nome == "Antonio")&&(sobreNome == "Estevam")){
+//   alert("voce é o Tonico")
+// } else if ((nome == "")||(sobreNome == "")){
+//   alert("Você não preencheu uma das opções, digite novamente")
+// } else {
+//   alert("Você não é o Tonico")
+// }
