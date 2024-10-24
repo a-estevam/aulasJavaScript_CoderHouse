@@ -4,13 +4,13 @@
 // }
 // nome()
 
-var frase = "teste"
+var frase = "teste";
 
-function exibir(){
-    var frase = "Olá"
-    
-    console.log(this.frase)
-    console.log(frase)
+function exibir() {
+    var frase = "Olá";
+
+    console.log(this.frase);
+    console.log(frase);
 }
 
-exibir()
+exibir();

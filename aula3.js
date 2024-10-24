@@ -1,6 +1,5 @@
 // let numero = parseInt(prompt('digite um numero de 1 a 10'));
 
-
 // if (numero <= 5){
 //     alert('é menor ou igual a 5')
 // } else{
@@ -10,11 +9,10 @@
 // let nomeUsuario = prompt   ("digite seu nome")
 
 // if(nomeUsuario== ""){
-//     alert("nome vazio")  
+//     alert("nome vazio")
 // }else{
 //     alert("seu nome é: "+ nomeUsuario)
 // }
-
 
 // var combustivel = prompt('digite o combustivel');
 
@@ -27,7 +25,6 @@
 // } else{
 //     alert('O carro não vai funcionar')
 // }
-
 
 // let numero = parseInt(prompt("digite um número de 1 a 5"));
 
@@ -45,7 +42,6 @@
 //     alert('não entendi, digite um número de 1 a 5')
 // }
 
-
 // var valor = ""
 // if (valor){
 //     alert ("valor verdadeiro")
@@ -55,16 +51,13 @@
 
 // if ('true' == true)
 
-
 // var numero = parseInt(Prompt("digite um numero entre 1 e 100"));
-
 
 // if (numero <= 10){
 //     alert(numero + 'está entre 1 e 10')
 // }else if(numero <=20){
 //     alert(numero + 'está entre 11 e 20')
 // }
-
 
 // //Exercício Vogal//
 
