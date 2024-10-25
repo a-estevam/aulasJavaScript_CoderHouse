@@ -6,7 +6,7 @@ function emprestimo() {
   let nome = prompt("qual é o seu nome")
   let desejaContinuar = prompt("deseja simular um empréstimo? sim/não")
 
-  while(desejaContinuar != "não"){
+  while(desejaContinuar.toLowerCase() != "não"){
     let valorSolicitado = parseFloat(prompt("Valor do empréstimo"));
 
   
