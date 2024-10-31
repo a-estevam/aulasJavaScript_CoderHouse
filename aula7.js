@@ -46,6 +46,19 @@ function convertTemp(tempF){
 console.log('temperatura é: '+ convertTemp(65).toFixed(2) +' Cº');
 
 // 4. (Número primo) Crie uma funcionalidade que solicita para que o usuário informe um número até que o número informado seja primo.
+
+let primo;
+
+function numeroPrimo(primo){
+    if (primo < 2){
+        console.log ('não é primo')
+    }
+}
+
+numeroPrimo(4)
+
+
+
 // 5. (Somatório) Faça um sistema que receba um número e calcule seu somatório (somar todos os valores entre 1 e o número escolhido).
 // 6. (Cubo) Crie uma função que retorne o cubo de um número fornecido pelo usuário.
 // 7. (Divisível) Crie uma funcionalidade que recebe dois números e verifica se o primeiro número é ou não divisível pelo segundo número.
