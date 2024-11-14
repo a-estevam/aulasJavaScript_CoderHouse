@@ -79,3 +79,4 @@ function faltaParaAniversario(dataAniversario){
 }
 
 console.log(faltaParaAniversario("julho 17 2025"))
+
