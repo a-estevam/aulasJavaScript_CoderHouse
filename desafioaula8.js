@@ -35,8 +35,7 @@ function emprestimo() {
     let quantidadeDeParcelas = parseInt(prompt("Quantidade de parcelas"));
     if (
       isNaN(quantidadeDeParcelas) ||
-      quantidadeDeParcelas < 1 ||
-      quantidadeDeParcelas > 12
+      quantidadeDeParcelas < 1 
     ) {
       alert("digite de 1 à 12x");
       continue;
@@ -46,13 +45,13 @@ function emprestimo() {
       valorSolicitado * (1 + taxaDeJuros * quantidadeDeParcelas);
     let valorPorParcelaComJuros = valorComJuros / quantidadeDeParcelas;
 
-    console.log(`R$${valorSolicitado} parcelado em ${quantidadeDeParcelas}x`);
+    console.log(`${valorSolicitado.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})} parcelado em ${quantidadeDeParcelas}x`);
 
     for (let i = 1; i <= quantidadeDeParcelas; i++) {
-      console.log(`Parcela ${i} - R$${valorPorParcelaComJuros.toFixed(2)}`);
+      console.log(`Parcela ${i} = ${valorPorParcelaComJuros.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`);
     }
     console.log(
-      `${clienteAtivo.nome}, você irá pagar: R$${valorComJuros.toFixed(2)}!`
+      `${clienteAtivo.nome}, você irá pagar:${valorComJuros.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}!`
     );
     console.log(clienteAtivo.descricao());
 
